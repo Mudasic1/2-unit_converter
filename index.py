@@ -23,6 +23,68 @@ unit_categories = {
         "Celsius": lambda x: x,
         "Fahrenheit": lambda x: (x * 9/5) + 32,
         "Kelvin": lambda x: x + 273.15
+    },
+    "Area": {
+        "Square Meter": 1,
+        "Square Kilometer": 0.000001,
+        "Square Mile": 3.861e-7,
+        "Square Yard": 1.19599,
+        "Square Foot": 10.7639
+    },
+    "Data Transfer Rate": {
+        "Bits per second": 1,
+        "Kilobits per second": 0.001,
+        "Megabits per second": 0.000001,
+        "Gigabits per second": 1e-9
+    },
+    "Digital Storage": {
+        "Byte": 1,
+        "Kilobyte": 0.001,
+        "Megabyte": 1e-6,
+        "Gigabyte": 1e-9,
+        "Terabyte": 1e-12
+    },
+    "Energy": {
+        "Joule": 1,
+        "Kilojoule": 0.001,
+        "Calorie": 0.239006,
+        "Kilocalorie": 0.000239006
+    },
+    "Frequency": {
+        "Hertz": 1,
+        "Kilohertz": 0.001,
+        "Megahertz": 1e-6,
+        "Gigahertz": 1e-9
+    },
+    "Fuel Economy": {
+        "Kilometers per Liter": 1,
+        "Miles per Gallon": 2.35215
+    },
+    "Plane Angle": {
+        "Degree": 1,
+        "Radian": 0.0174533
+    },
+    "Pressure": {
+        "Pascal": 1,
+        "Bar": 1e-5,
+        "PSI": 0.000145038
+    },
+    "Speed": {
+        "Meter per second": 1,
+        "Kilometer per hour": 3.6,
+        "Mile per hour": 2.23694
+    },
+    "Time": {
+        "Second": 1,
+        "Minute": 1/60,
+        "Hour": 1/3600,
+        "Day": 1/86400
+    },
+    "Volume": {
+        "Liter": 1,
+        "Milliliter": 1000,
+        "Cubic Meter": 0.001,
+        "Cubic Foot": 0.0353147
     }
 }
 
